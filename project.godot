@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="tailor"
+run/main_scene="uid://boifu63dle5um"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
