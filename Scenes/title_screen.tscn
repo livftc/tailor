@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://c6fbx5oa3gvi0"]
+
+[ext_resource type="Script" uid="uid://cy4vrp3x318wd" path="res://scripts/title_screen.gd" id="1_klylv"]
+[ext_resource type="FontFile" uid="uid://vbbd6pwx2g2l" path="res://Fonts/Press_Start_2P/PressStart2P-Regular.ttf" id="2_p3fck"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p3fck"]
+bg_color = Color(0.42163792, 0.60519665, 0.8775091, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4gxqj"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="TitleScreen" type="Control" unique_id=501580198]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_klylv")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=66024926]
+layout_mode = 0
+offset_right = 1291.0
+offset_bottom = 743.0
+color = Color(0.827451, 0.654902, 0.9882353, 1)
+
+[node name="StartButton" type="Button" parent="." unique_id=1664917751]
+layout_mode = 0
+offset_left = 293.0
+offset_top = 492.0
+offset_right = 541.0
+offset_bottom = 575.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_p3fck")
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxFlat_p3fck")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4gxqj")
+text = "Start"
+
+[node name="Quit" type="Button" parent="." unique_id=2090490665]
+layout_mode = 0
+offset_left = 901.0
+offset_top = 470.0
+offset_right = 976.0
+offset_bottom = 565.0
+text = "Quit
+"
+
+[node name="Label" type="Label" parent="." unique_id=743739705]
+layout_mode = 0
+offset_left = 97.0
+offset_top = 106.0
+offset_right = 1197.0
+offset_bottom = 309.0
+theme_override_fonts/font = ExtResource("2_p3fck")
+theme_override_font_sizes/font_size = 80
+text = "Welcome to 
+Tailor"
+horizontal_alignment = 1
+paragraph_separator = "\\"
+
+[connection signal="button_up" from="StartButton" to="." method="_on_start_button_button_up"]
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_start_button_pressed"]
