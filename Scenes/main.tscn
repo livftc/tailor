@@ -3,6 +3,11 @@
 [ext_resource type="Script" uid="uid://lswoar2o2j1u" path="res://scripts/main.gd" id="1_8gbba"]
 [ext_resource type="Texture2D" uid="uid://cmhefs6fpk3k" path="res://icons/home.png" id="2_jjvhh"]
 [ext_resource type="FontFile" uid="uid://vbbd6pwx2g2l" path="res://Fonts/Press_Start_2P/PressStart2P-Regular.ttf" id="3_8gbba"]
+[ext_resource type="Texture2D" uid="uid://c1ycjbhw0l14r" path="res://clothes/mannequin.png" id="4_kry3j"]
+[ext_resource type="Texture2D" uid="uid://ciywdtiohsmdt" path="res://icons/back_arrow.png" id="5_6bp64"]
+[ext_resource type="Texture2D" uid="uid://3fhndi30k0d6" path="res://clothes/peach.png" id="5_21xkr"]
+[ext_resource type="Texture2D" uid="uid://b7puh2be4nted" path="res://clothes/top1.png" id="7_6bp64"]
+[ext_resource type="Texture2D" uid="uid://kgm4v1yxjsy8" path="res://clothes/bot1.png" id="7_344ge"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jjvhh"]
 bg_color = Color(0.42163792, 0.60519665, 0.8775091, 1)
@@ -21,7 +26,7 @@ corner_radius_bottom_left = 20
 [node name="main" type="Node" unique_id=1697023579]
 script = ExtResource("1_8gbba")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1748818500]
+[node name="bg" type="ColorRect" parent="." unique_id=1748818500]
 offset_right = 1276.0
 offset_bottom = 722.0
 color = Color(0.7882353, 0.56078434, 1, 1)
@@ -35,12 +40,11 @@ icon = ExtResource("2_jjvhh")
 flat = true
 expand_icon = true
 
-[node name="Exit" type="Button" parent="Home" unique_id=895110003]
-layout_mode = 0
-offset_left = 80.0
-offset_top = 14.0
-offset_right = 185.0
-offset_bottom = 50.0
+[node name="Exit" type="Button" parent="." unique_id=895110003]
+offset_left = 106.0
+offset_top = 29.0
+offset_right = 211.0
+offset_bottom = 65.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("3_8gbba")
 theme_override_font_sizes/font_size = 16
@@ -49,7 +53,234 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
 text = "Exit"
 icon_alignment = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1749116539]
+[node name="fitting room" type="ColorRect" parent="." unique_id=37844799]
+anchors_preset = -1
+anchor_right = 0.016
+anchor_bottom = 0.011000001
+offset_left = 152.0
+offset_top = 104.0
+offset_right = 627.52
+offset_bottom = 664.08
+
+[node name="mannequin" type="Sprite2D" parent="." unique_id=1749116539]
+position = Vector2(376, 368)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_kry3j")
+
+[node name="skincolors" type="Node2D" parent="." unique_id=1697380031]
+position = Vector2(376, 368)
+scale = Vector2(0.6, 0.6)
+
+[node name="peachm" type="Sprite2D" parent="skincolors" unique_id=1406456658]
+visible = false
+texture = ExtResource("5_21xkr")
+
+[node name="bots" type="Node2D" parent="." unique_id=1657005658]
+position = Vector2(376, 368)
+scale = Vector2(0.6, 0.6)
+
+[node name="bot1" type="Sprite2D" parent="bots" unique_id=381407543]
+visible = false
+texture = ExtResource("7_344ge")
+
+[node name="tops" type="Node2D" parent="." unique_id=1621555408]
+position = Vector2(376, 368)
+scale = Vector2(0.6, 0.6)
+
+[node name="top1" type="Sprite2D" parent="tops" unique_id=1941703862]
+visible = false
+texture = ExtResource("7_6bp64")
+
+[node name="skin" type="ColorRect" parent="." unique_id=1087027137]
+visible = false
+offset_left = 811.0
+offset_top = 24.0
+offset_right = 1247.0
+offset_bottom = 695.0
+
+[node name="peach" type="Button" parent="skin" unique_id=847032549]
+layout_mode = 0
+offset_left = 77.0
+offset_top = 200.0
+offset_right = 189.0
+offset_bottom = 264.0
+theme_override_fonts/font = ExtResource("3_8gbba")
+text = "Peach"
+
+[node name="back" type="Button" parent="skin" unique_id=1010417829]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 24.0
+offset_right = 85.0
+offset_bottom = 72.0
+icon = ExtResource("5_6bp64")
+flat = true
+expand_icon = true
+
+[node name="topscloset" type="ColorRect" parent="." unique_id=544960758]
+offset_left = 811.0
+offset_top = 24.0
+offset_right = 1247.0
+offset_bottom = 695.0
+
+[node name="top1" type="Button" parent="topscloset" unique_id=161259279]
+layout_mode = 0
+offset_left = 77.0
+offset_top = 88.0
+offset_right = 213.0
+offset_bottom = 208.0
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_icons/icon = ExtResource("7_6bp64")
+text = "
+Kehlani Top"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
+
+[node name="ColorPickerButton" type="ColorPickerButton" parent="topscloset/top1" unique_id=1845341370]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 168.6
+offset_right = 466.0
+offset_bottom = 272.0
+edit_alpha = false
+edit_intensity = false
+
+[node name="back" type="Button" parent="topscloset" unique_id=561889428]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 24.0
+offset_right = 85.0
+offset_bottom = 72.0
+icon = ExtResource("5_6bp64")
+flat = true
+expand_icon = true
+
+[node name="bottoms" type="ColorRect" parent="." unique_id=1525644307]
+visible = false
+offset_left = 811.0
+offset_top = 24.0
+offset_right = 1247.0
+offset_bottom = 695.0
+
+[node name="bot1" type="Button" parent="bottoms" unique_id=434826385]
+layout_mode = 0
+offset_left = 109.0
+offset_top = 248.0
+offset_right = 221.0
+offset_bottom = 312.0
+text = "Jean Shorts"
+
+[node name="back" type="Button" parent="bottoms" unique_id=935182813]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 24.0
+offset_right = 85.0
+offset_bottom = 72.0
+icon = ExtResource("5_6bp64")
+flat = true
+expand_icon = true
+
+[node name="closet" type="ColorRect" parent="." unique_id=754910348]
+visible = false
+offset_left = 811.0
+offset_top = 24.0
+offset_right = 1247.0
+offset_bottom = 695.0
+
+[node name="skin" type="Button" parent="closet" unique_id=1164195503]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 32.0
+offset_right = 405.0
+offset_bottom = 104.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Skin"
+icon_alignment = 1
+
+[node name="hair" type="Button" parent="closet" unique_id=61888999]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 136.0
+offset_right = 405.0
+offset_bottom = 208.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Hair"
+icon_alignment = 1
+
+[node name="tops" type="Button" parent="closet" unique_id=944965152]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 240.0
+offset_right = 405.0
+offset_bottom = 312.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Tops"
+icon_alignment = 1
+
+[node name="bottoms" type="Button" parent="closet" unique_id=1843246800]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 344.0
+offset_right = 405.0
+offset_bottom = 419.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Bottoms"
+icon_alignment = 1
+
+[node name="shoes" type="Button" parent="closet" unique_id=1187607824]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 448.0
+offset_right = 405.0
+offset_bottom = 520.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Shoes"
+icon_alignment = 1
+
+[node name="accesories" type="Button" parent="closet" unique_id=659910035]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 552.0
+offset_right = 405.0
+offset_bottom = 629.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Accessories"
+icon_alignment = 1
 
 [connection signal="pressed" from="Home" to="." method="_on_home_pressed"]
-[connection signal="pressed" from="Home/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="skin/peach" to="." method="_on_peach_pressed"]
+[connection signal="pressed" from="skin/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="topscloset/top1" to="." method="_on_top_1_pressed"]
+[connection signal="pressed" from="topscloset/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="bottoms/bot1" to="." method="_on_bot_1_pressed"]
+[connection signal="pressed" from="bottoms/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="closet/skin" to="." method="_on_skin_pressed"]
+[connection signal="pressed" from="closet/tops" to="." method="_on_tops_pressed"]
+[connection signal="pressed" from="closet/bottoms" to="." method="_on_bottoms_pressed"]
