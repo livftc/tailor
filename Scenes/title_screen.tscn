@@ -10,8 +10,22 @@ corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_twnyg"]
+bg_color = Color(0.42163792, 0.60519665, 0.8775091, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4gxqj"]
 bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_55kwv"]
+bg_color = Color(0.42163792, 0.60519665, 0.8775091, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -35,24 +49,30 @@ color = Color(0.827451, 0.654902, 0.9882353, 1)
 [node name="StartButton" type="Button" parent="." unique_id=1664917751]
 layout_mode = 0
 offset_left = 293.0
-offset_top = 492.0
+offset_top = 488.0
 offset_right = 541.0
 offset_bottom = 575.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("2_p3fck")
 theme_override_font_sizes/font_size = 36
 theme_override_styles/normal = SubResource("StyleBoxFlat_p3fck")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_twnyg")
 theme_override_styles/hover = SubResource("StyleBoxFlat_4gxqj")
 text = "Start"
 
-[node name="Quit" type="Button" parent="." unique_id=2090490665]
+[node name="Quit" type="Button" parent="." unique_id=28716538]
 layout_mode = 0
-offset_left = 901.0
-offset_top = 470.0
-offset_right = 976.0
-offset_bottom = 565.0
-text = "Quit
-"
+offset_left = 792.0
+offset_top = 488.0
+offset_right = 972.0
+offset_bottom = 577.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_p3fck")
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxFlat_p3fck")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_55kwv")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4gxqj")
+text = "Quit"
 
 [node name="Label" type="Label" parent="." unique_id=743739705]
 layout_mode = 0
@@ -70,4 +90,3 @@ paragraph_separator = "\\"
 [connection signal="button_up" from="StartButton" to="." method="_on_start_button_button_up"]
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
-[connection signal="pressed" from="Quit" to="." method="_on_start_button_pressed"]

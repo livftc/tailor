@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5lcik1x766es"
-path="res://.godot/imported/peach.png-03dcdb790d79e50af98088d829fec43a.ctex"
+uid="uid://c4310k04qe67y"
+path="res://.godot/imported/side_long.png-f617b9a626213e3681da8879dd66188a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://clothes/peach.png"
-dest_files=["res://.godot/imported/peach.png-03dcdb790d79e50af98088d829fec43a.ctex"]
+source_file="res://clothes/hair/side_long.png"
+dest_files=["res://.godot/imported/side_long.png-f617b9a626213e3681da8879dd66188a.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5lcik1x766es"
-path="res://.godot/imported/peach.png-03dcdb790d79e50af98088d829fec43a.ctex"
+uid="uid://bbnnnmtg7jmii"
+path="res://.godot/imported/collar_tshirt.png-ccfe4483a0923496560414d76514bdf6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://clothes/peach.png"
-dest_files=["res://.godot/imported/peach.png-03dcdb790d79e50af98088d829fec43a.ctex"]
+source_file="res://clothes/tops/collar_tshirt.png"
+dest_files=["res://.godot/imported/collar_tshirt.png-ccfe4483a0923496560414d76514bdf6.ctex"]
 
 [params]
 

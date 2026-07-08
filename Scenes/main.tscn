@@ -3,13 +3,33 @@
 [ext_resource type="Script" uid="uid://lswoar2o2j1u" path="res://scripts/main.gd" id="1_8gbba"]
 [ext_resource type="Texture2D" uid="uid://cmhefs6fpk3k" path="res://icons/home.png" id="2_jjvhh"]
 [ext_resource type="FontFile" uid="uid://vbbd6pwx2g2l" path="res://Fonts/Press_Start_2P/PressStart2P-Regular.ttf" id="3_8gbba"]
-[ext_resource type="Texture2D" uid="uid://c1ycjbhw0l14r" path="res://clothes/mannequin.png" id="4_kry3j"]
+[ext_resource type="Texture2D" uid="uid://dh1d25u2aqgr7" path="res://clothes/mannequin.png" id="4_kry3j"]
 [ext_resource type="Texture2D" uid="uid://ciywdtiohsmdt" path="res://icons/back_arrow.png" id="5_6bp64"]
-[ext_resource type="Texture2D" uid="uid://3fhndi30k0d6" path="res://clothes/peach.png" id="5_21xkr"]
-[ext_resource type="Texture2D" uid="uid://b7puh2be4nted" path="res://clothes/top1.png" id="7_6bp64"]
-[ext_resource type="Texture2D" uid="uid://kgm4v1yxjsy8" path="res://clothes/bot1.png" id="7_344ge"]
+[ext_resource type="Texture2D" uid="uid://bxho3w1k7cnbn" path="res://clothes/basebody.png" id="5_hptm8"]
+[ext_resource type="Texture2D" uid="uid://bqs0hc4qje0iv" path="res://clothes/tops/top1.png" id="7_6bp64"]
+[ext_resource type="Texture2D" uid="uid://clgfs72kpminx" path="res://clothes/bottoms/bot1.png" id="7_344ge"]
+[ext_resource type="Texture2D" uid="uid://dovxkgwpl573u" path="res://clothes/base.png" id="7_d1ilt"]
+[ext_resource type="Texture2D" uid="uid://dfhx3mnbv1a4j" path="res://clothes/bottoms/flare_jeans.png" id="8_fevyy"]
+[ext_resource type="Texture2D" uid="uid://cks81wl4isvw7" path="res://clothes/bottoms/blackshorts.png" id="9_hibaj"]
+[ext_resource type="Texture2D" uid="uid://cfiy5btc11q2u" path="res://clothes/tops/base_tshirt.png" id="11_pdsj5"]
+[ext_resource type="Texture2D" uid="uid://bbnnnmtg7jmii" path="res://clothes/tops/collar_tshirt.png" id="12_ee4r6"]
+[ext_resource type="Texture2D" uid="uid://o6c7m8alh0tj" path="res://clothes/tops/tubetop.png" id="13_gt3je"]
+[ext_resource type="Texture2D" uid="uid://24wt101bvwf5" path="res://clothes/accessories/bolero.png" id="14_3pmx8"]
+[ext_resource type="Texture2D" uid="uid://bv4foy4bfm3e" path="res://clothes/accessories/belt.png" id="15_u50mg"]
+[ext_resource type="Texture2D" uid="uid://16tdkvuudyi8" path="res://clothes/hair/middle.png" id="16_cbgmd"]
+[ext_resource type="Texture2D" uid="uid://cxc4m2va0cd42" path="res://clothes/hair/pixie.png" id="17_1w6v2"]
+[ext_resource type="Texture2D" uid="uid://c4310k04qe67y" path="res://clothes/hair/side_long.png" id="18_ueoa1"]
+[ext_resource type="Texture2D" uid="uid://boee07vrc27hh" path="res://clothes/hair/bun.png" id="19_pdsj5"]
+[ext_resource type="Texture2D" uid="uid://dwwikeih8ql2o" path="res://clothes/hair/edges.png" id="20_ee4r6"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jjvhh"]
+bg_color = Color(0.42163792, 0.60519665, 0.8775091, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1w6v2"]
 bg_color = Color(0.42163792, 0.60519665, 0.8775091, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
@@ -22,6 +42,138 @@ corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ee4r6"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gt3je"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3pmx8"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u50mg"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cbgmd"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_344ge"]
+bg_color = Color(1, 0.9137255, 0.80784315, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fdnlq"]
+bg_color = Color(0.9999997, 0.88103825, 0.72464645, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ynf5e"]
+bg_color = Color(0.8901961, 0.6392157, 0.4117647, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jkdf5"]
+bg_color = Color(0.8901961, 0.6392157, 0.4117647, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hptm8"]
+bg_color = Color(0.63529414, 0.44313726, 0.3254902, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wsu2k"]
+bg_color = Color(0.63529414, 0.44313726, 0.3254902, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d1ilt"]
+bg_color = Color(0.33333334, 0.21960784, 0.14509805, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k12tt"]
+bg_color = Color(0.33333334, 0.21960784, 0.14509805, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6iyac"]
+bg_color = Color(0.12156863, 0.07058824, 0.03529412, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h1bgf"]
+bg_color = Color(0.12156863, 0.07058824, 0.03529412, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fevyy"]
+bg_color = Color(0.42352942, 0.6039216, 0.8784314, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hibaj"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pdsj5"]
+bg_color = Color(0.23976153, 0.4252308, 0.7069159, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
 
 [node name="main" type="Node" unique_id=1697023579]
 script = ExtResource("1_8gbba")
@@ -49,6 +201,7 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("3_8gbba")
 theme_override_font_sizes/font_size = 16
 theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_1w6v2")
 theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
 text = "Exit"
 icon_alignment = 1
@@ -73,7 +226,28 @@ scale = Vector2(0.6, 0.6)
 
 [node name="peachm" type="Sprite2D" parent="skincolors" unique_id=1406456658]
 visible = false
-texture = ExtResource("5_21xkr")
+texture = ExtResource("5_hptm8")
+
+[node name="tanm" type="Sprite2D" parent="skincolors" unique_id=1994453978]
+visible = false
+texture = ExtResource("5_hptm8")
+
+[node name="lightbrownm" type="Sprite2D" parent="skincolors" unique_id=585721598]
+visible = false
+texture = ExtResource("5_hptm8")
+
+[node name="brownm" type="Sprite2D" parent="skincolors" unique_id=797192631]
+visible = false
+texture = ExtResource("5_hptm8")
+
+[node name="darkbrownm" type="Sprite2D" parent="skincolors" unique_id=751209609]
+visible = false
+texture = ExtResource("5_hptm8")
+
+[node name="baseclothing" type="Sprite2D" parent="." unique_id=332797022]
+position = Vector2(376, 368)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("7_d1ilt")
 
 [node name="bots" type="Node2D" parent="." unique_id=1657005658]
 position = Vector2(376, 368)
@@ -83,6 +257,14 @@ scale = Vector2(0.6, 0.6)
 visible = false
 texture = ExtResource("7_344ge")
 
+[node name="flare_jeans" type="Sprite2D" parent="bots" unique_id=727747043]
+visible = false
+texture = ExtResource("8_fevyy")
+
+[node name="black_shorts" type="Sprite2D" parent="bots" unique_id=712761545]
+visible = false
+texture = ExtResource("9_hibaj")
+
 [node name="tops" type="Node2D" parent="." unique_id=1621555408]
 position = Vector2(376, 368)
 scale = Vector2(0.6, 0.6)
@@ -90,6 +272,135 @@ scale = Vector2(0.6, 0.6)
 [node name="top1" type="Sprite2D" parent="tops" unique_id=1941703862]
 visible = false
 texture = ExtResource("7_6bp64")
+
+[node name="tshirt" type="Sprite2D" parent="tops" unique_id=1098386527]
+visible = false
+texture = ExtResource("11_pdsj5")
+
+[node name="collared" type="Sprite2D" parent="tops" unique_id=255780850]
+visible = false
+texture = ExtResource("12_ee4r6")
+
+[node name="tube" type="Sprite2D" parent="tops" unique_id=1386931229]
+visible = false
+texture = ExtResource("13_gt3je")
+
+[node name="access" type="Node2D" parent="." unique_id=1334254028]
+position = Vector2(376, 368)
+scale = Vector2(0.6, 0.6)
+
+[node name="bolero" type="Sprite2D" parent="access" unique_id=394505087]
+visible = false
+texture = ExtResource("14_3pmx8")
+
+[node name="belt" type="Sprite2D" parent="access" unique_id=1433038466]
+visible = false
+texture = ExtResource("15_u50mg")
+
+[node name="hairnode" type="Node2D" parent="." unique_id=1925973114]
+position = Vector2(376, 368)
+scale = Vector2(0.6, 0.6)
+
+[node name="middle" type="Sprite2D" parent="hairnode" unique_id=483922583]
+visible = false
+texture = ExtResource("16_cbgmd")
+
+[node name="pixie" type="Sprite2D" parent="hairnode" unique_id=2077404904]
+visible = false
+texture = ExtResource("17_1w6v2")
+
+[node name="side" type="Sprite2D" parent="hairnode" unique_id=734095252]
+visible = false
+texture = ExtResource("18_ueoa1")
+
+[node name="bun" type="Sprite2D" parent="hairnode" unique_id=1647178114]
+visible = false
+texture = ExtResource("19_pdsj5")
+
+[node name="edges" type="Sprite2D" parent="hairnode" unique_id=2111370666]
+visible = false
+texture = ExtResource("20_ee4r6")
+
+[node name="closet" type="ColorRect" parent="." unique_id=754910348]
+offset_left = 811.0
+offset_top = 24.0
+offset_right = 1247.0
+offset_bottom = 695.0
+
+[node name="skin" type="Button" parent="closet" unique_id=1164195503]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 80.0
+offset_right = 405.0
+offset_bottom = 152.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ee4r6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Skin"
+icon_alignment = 1
+
+[node name="hair" type="Button" parent="closet" unique_id=61888999]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 192.0
+offset_right = 405.0
+offset_bottom = 264.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_gt3je")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Hair"
+icon_alignment = 1
+
+[node name="tops" type="Button" parent="closet" unique_id=944965152]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 304.0
+offset_right = 405.0
+offset_bottom = 376.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_3pmx8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Tops"
+icon_alignment = 1
+
+[node name="bottoms" type="Button" parent="closet" unique_id=1843246800]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 416.0
+offset_right = 405.0
+offset_bottom = 491.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_u50mg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Bottoms"
+icon_alignment = 1
+
+[node name="accesories" type="Button" parent="closet" unique_id=659910035]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 536.0
+offset_right = 405.0
+offset_bottom = 613.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_cbgmd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
+text = "Accessories"
+icon_alignment = 1
 
 [node name="skin" type="ColorRect" parent="." unique_id=1087027137]
 visible = false
@@ -100,12 +411,71 @@ offset_bottom = 695.0
 
 [node name="peach" type="Button" parent="skin" unique_id=847032549]
 layout_mode = 0
-offset_left = 77.0
-offset_top = 200.0
-offset_right = 189.0
-offset_bottom = 264.0
+offset_left = 53.0
+offset_top = 95.0
+offset_right = 381.0
+offset_bottom = 159.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 2
 theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_344ge")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_344ge")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fdnlq")
 text = "Peach"
+
+[node name="tan" type="Button" parent="skin" unique_id=1815923533]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 207.0
+offset_right = 381.0
+offset_bottom = 271.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_ynf5e")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ynf5e")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jkdf5")
+text = "Tan"
+
+[node name="light_brown" type="Button" parent="skin" unique_id=1369484465]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 319.0
+offset_right = 381.0
+offset_bottom = 383.0
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_hptm8")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hptm8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wsu2k")
+text = "Light Brown"
+
+[node name="brown" type="Button" parent="skin" unique_id=399507270]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 431.0
+offset_right = 381.0
+offset_bottom = 495.0
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_d1ilt")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_d1ilt")
+theme_override_styles/hover = SubResource("StyleBoxFlat_k12tt")
+text = "Brown"
+
+[node name="dark_brown" type="Button" parent="skin" unique_id=2004311776]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 543.0
+offset_right = 381.0
+offset_bottom = 607.0
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_6iyac")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6iyac")
+theme_override_styles/hover = SubResource("StyleBoxFlat_h1bgf")
+text = "Dark Brown"
 
 [node name="back" type="Button" parent="skin" unique_id=1010417829]
 layout_mode = 0
@@ -117,35 +487,185 @@ icon = ExtResource("5_6bp64")
 flat = true
 expand_icon = true
 
-[node name="topscloset" type="ColorRect" parent="." unique_id=544960758]
+[node name="haircloset" type="ColorRect" parent="." unique_id=767585664]
+visible = false
 offset_left = 811.0
 offset_top = 24.0
 offset_right = 1247.0
 offset_bottom = 695.0
 
-[node name="top1" type="Button" parent="topscloset" unique_id=161259279]
+[node name="middleb" type="Button" parent="haircloset" unique_id=1460537683]
 layout_mode = 0
-offset_left = 77.0
+offset_left = 69.0
 offset_top = 88.0
-offset_right = 213.0
-offset_bottom = 208.0
+offset_right = 373.0
+offset_bottom = 176.0
+theme_override_constants/line_spacing = 8
 theme_override_fonts/font = ExtResource("3_8gbba")
-theme_override_icons/icon = ExtResource("7_6bp64")
-text = "
-Kehlani Top"
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Middle Part Long"
 autowrap_mode = 2
 icon_alignment = 1
 vertical_icon_alignment = 0
+
+[node name="pixieb" type="Button" parent="haircloset" unique_id=1359543015]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 200.0
+offset_right = 373.0
+offset_bottom = 288.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Pixie Cut"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="sideb" type="Button" parent="haircloset" unique_id=1181101600]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 312.0
+offset_right = 373.0
+offset_bottom = 400.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Side Part 
+Long"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="bunb" type="Button" parent="haircloset" unique_id=716998236]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 424.0
+offset_right = 373.0
+offset_bottom = 512.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "High Bun"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="edgesb" type="Button" parent="haircloset" unique_id=686114388]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 536.0
+offset_right = 373.0
+offset_bottom = 624.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Middle Part with Edges"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="back" type="Button" parent="haircloset" unique_id=558222506]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 24.0
+offset_right = 85.0
+offset_bottom = 72.0
+icon = ExtResource("5_6bp64")
+flat = true
 expand_icon = true
 
-[node name="ColorPickerButton" type="ColorPickerButton" parent="topscloset/top1" unique_id=1845341370]
+[node name="topscloset" type="ColorRect" parent="." unique_id=544960758]
+visible = false
+offset_left = 811.0
+offset_top = 24.0
+offset_right = 1247.0
+offset_bottom = 695.0
+
+[node name="top1b" type="Button" parent="topscloset" unique_id=161259279]
 layout_mode = 0
-offset_left = 168.0
-offset_top = 168.6
-offset_right = 466.0
-offset_bottom = 272.0
-edit_alpha = false
-edit_intensity = false
+offset_left = 45.0
+offset_top = 88.0
+offset_right = 197.0
+offset_bottom = 200.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Kehlani Top"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="tubeb" type="Button" parent="topscloset" unique_id=2077913385]
+layout_mode = 0
+offset_left = 237.0
+offset_top = 88.0
+offset_right = 389.0
+offset_bottom = 200.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Tube 
+Top"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="collarb" type="Button" parent="topscloset" unique_id=1691244984]
+layout_mode = 0
+offset_left = 237.0
+offset_top = 224.0
+offset_right = 389.0
+offset_bottom = 336.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Baby 
+Tee"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="tshirtb" type="Button" parent="topscloset" unique_id=44664713]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 224.0
+offset_right = 197.0
+offset_bottom = 336.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "T-shirt"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
 
 [node name="back" type="Button" parent="topscloset" unique_id=561889428]
 layout_mode = 0
@@ -164,13 +684,56 @@ offset_top = 24.0
 offset_right = 1247.0
 offset_bottom = 695.0
 
-[node name="bot1" type="Button" parent="bottoms" unique_id=434826385]
+[node name="bot1" type="Button" parent="bottoms" unique_id=1439760251]
 layout_mode = 0
-offset_left = 109.0
-offset_top = 248.0
-offset_right = 221.0
-offset_bottom = 312.0
+offset_left = 69.0
+offset_top = 96.0
+offset_right = 205.0
+offset_bottom = 208.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
 text = "Jean Shorts"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="flared" type="Button" parent="bottoms" unique_id=872592929]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 240.0
+offset_right = 205.0
+offset_bottom = 352.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Flared Jeans"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="shorts" type="Button" parent="bottoms" unique_id=1598586485]
+layout_mode = 0
+offset_left = 245.0
+offset_top = 96.0
+offset_right = 381.0
+offset_bottom = 208.0
+theme_override_constants/line_spacing = 8
+theme_override_fonts/font = ExtResource("3_8gbba")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Biker Shorts"
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
 
 [node name="back" type="Button" parent="bottoms" unique_id=935182813]
 layout_mode = 0
@@ -182,105 +745,86 @@ icon = ExtResource("5_6bp64")
 flat = true
 expand_icon = true
 
-[node name="closet" type="ColorRect" parent="." unique_id=754910348]
+[node name="accessoriescloset" type="ColorRect" parent="." unique_id=549717719]
 visible = false
 offset_left = 811.0
 offset_top = 24.0
 offset_right = 1247.0
 offset_bottom = 695.0
 
-[node name="skin" type="Button" parent="closet" unique_id=1164195503]
+[node name="bolerob" type="Button" parent="accessoriescloset" unique_id=2073784243]
 layout_mode = 0
-offset_left = 29.0
-offset_top = 32.0
-offset_right = 405.0
-offset_bottom = 104.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
+offset_left = 53.0
+offset_top = 104.0
+offset_right = 205.0
+offset_bottom = 224.0
+theme_override_constants/line_spacing = 8
 theme_override_fonts/font = ExtResource("3_8gbba")
-theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
-theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
-text = "Skin"
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Bolero
+"
+autowrap_mode = 2
 icon_alignment = 1
+vertical_icon_alignment = 0
 
-[node name="hair" type="Button" parent="closet" unique_id=61888999]
+[node name="beltb" type="Button" parent="accessoriescloset" unique_id=1844693495]
 layout_mode = 0
-offset_left = 29.0
-offset_top = 136.0
-offset_right = 405.0
-offset_bottom = 208.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
+offset_left = 237.0
+offset_top = 104.0
+offset_right = 389.0
+offset_bottom = 224.0
+theme_override_constants/line_spacing = 8
 theme_override_fonts/font = ExtResource("3_8gbba")
-theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
-theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
-text = "Hair"
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_fevyy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hibaj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdsj5")
+text = "Belt"
+autowrap_mode = 2
 icon_alignment = 1
+vertical_icon_alignment = 0
 
-[node name="tops" type="Button" parent="closet" unique_id=944965152]
+[node name="back" type="Button" parent="accessoriescloset" unique_id=1739716331]
 layout_mode = 0
 offset_left = 29.0
-offset_top = 240.0
-offset_right = 405.0
-offset_bottom = 312.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("3_8gbba")
-theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
-theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
-text = "Tops"
-icon_alignment = 1
-
-[node name="bottoms" type="Button" parent="closet" unique_id=1843246800]
-layout_mode = 0
-offset_left = 29.0
-offset_top = 344.0
-offset_right = 405.0
-offset_bottom = 419.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("3_8gbba")
-theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
-theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
-text = "Bottoms"
-icon_alignment = 1
-
-[node name="shoes" type="Button" parent="closet" unique_id=1187607824]
-layout_mode = 0
-offset_left = 29.0
-offset_top = 448.0
-offset_right = 405.0
-offset_bottom = 520.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("3_8gbba")
-theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
-theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
-text = "Shoes"
-icon_alignment = 1
-
-[node name="accesories" type="Button" parent="closet" unique_id=659910035]
-layout_mode = 0
-offset_left = 29.0
-offset_top = 552.0
-offset_right = 405.0
-offset_bottom = 629.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("3_8gbba")
-theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = SubResource("StyleBoxFlat_jjvhh")
-theme_override_styles/hover = SubResource("StyleBoxFlat_kry3j")
-text = "Accessories"
-icon_alignment = 1
+offset_top = 24.0
+offset_right = 85.0
+offset_bottom = 72.0
+icon = ExtResource("5_6bp64")
+flat = true
+expand_icon = true
 
 [connection signal="pressed" from="Home" to="." method="_on_home_pressed"]
 [connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
-[connection signal="pressed" from="skin/peach" to="." method="_on_peach_pressed"]
-[connection signal="pressed" from="skin/back" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="topscloset/top1" to="." method="_on_top_1_pressed"]
-[connection signal="pressed" from="topscloset/back" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="bottoms/bot1" to="." method="_on_bot_1_pressed"]
-[connection signal="pressed" from="bottoms/back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="closet/skin" to="." method="_on_skin_pressed"]
+[connection signal="pressed" from="closet/hair" to="." method="_on_hair_pressed"]
 [connection signal="pressed" from="closet/tops" to="." method="_on_tops_pressed"]
 [connection signal="pressed" from="closet/bottoms" to="." method="_on_bottoms_pressed"]
+[connection signal="pressed" from="closet/accesories" to="." method="_on_accesories_pressed"]
+[connection signal="pressed" from="skin/peach" to="." method="_on_peach_pressed"]
+[connection signal="pressed" from="skin/tan" to="." method="_on_tan_pressed"]
+[connection signal="pressed" from="skin/light_brown" to="." method="_on_light_brown_pressed"]
+[connection signal="pressed" from="skin/brown" to="." method="_on_brown_pressed"]
+[connection signal="pressed" from="skin/dark_brown" to="." method="_on_dark_brown_pressed"]
+[connection signal="pressed" from="skin/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="haircloset/middleb" to="." method="_on_middleb_pressed"]
+[connection signal="pressed" from="haircloset/pixieb" to="." method="_on_pixieb_pressed"]
+[connection signal="pressed" from="haircloset/sideb" to="." method="_on_sideb_pressed"]
+[connection signal="pressed" from="haircloset/bunb" to="." method="_on_bunb_pressed"]
+[connection signal="pressed" from="haircloset/edgesb" to="." method="_on_edgesb_pressed"]
+[connection signal="pressed" from="haircloset/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="topscloset/top1b" to="." method="_on_top_1_pressed"]
+[connection signal="pressed" from="topscloset/tubeb" to="." method="_on_tubeb_pressed"]
+[connection signal="pressed" from="topscloset/collarb" to="." method="_on_collarb_pressed"]
+[connection signal="pressed" from="topscloset/tshirtb" to="." method="_on_tshirtb_pressed"]
+[connection signal="pressed" from="topscloset/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="bottoms/bot1" to="." method="_on_bot_1_pressed"]
+[connection signal="pressed" from="bottoms/flared" to="." method="_on_flared_pressed"]
+[connection signal="pressed" from="bottoms/shorts" to="." method="_on_shorts_pressed"]
+[connection signal="pressed" from="bottoms/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="accessoriescloset/bolerob" to="." method="_on_bolerob_pressed"]
+[connection signal="pressed" from="accessoriescloset/beltb" to="." method="_on_beltb_pressed"]
+[connection signal="pressed" from="accessoriescloset/back" to="." method="_on_back_pressed"]

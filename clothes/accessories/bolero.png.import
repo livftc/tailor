@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5lcik1x766es"
-path="res://.godot/imported/peach.png-03dcdb790d79e50af98088d829fec43a.ctex"
+uid="uid://24wt101bvwf5"
+path="res://.godot/imported/bolero.png-bae4a677724efc1e33ea8b1506e1a77b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://clothes/peach.png"
-dest_files=["res://.godot/imported/peach.png-03dcdb790d79e50af98088d829fec43a.ctex"]
+source_file="res://clothes/accessories/bolero.png"
+dest_files=["res://.godot/imported/bolero.png-bae4a677724efc1e33ea8b1506e1a77b.ctex"]
 
 [params]
 
