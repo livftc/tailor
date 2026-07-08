@@ -14,6 +14,10 @@ config/name="tailor"
 run/main_scene="uid://c6fbx5oa3gvi0"
 config/features=PackedStringArray("4.7", "Mobile")
 
+[autoload]
+
+Sounds="*uid://c3m7bbeyfr1eu"
+
 [display]
 
 window/size/viewport_width=1280
@@ -32,4 +36,4 @@ enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="mobile"
+renderer/rendering_method="gl_compatibility"

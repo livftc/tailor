@@ -119,3 +119,4 @@ func _on_beltb_pressed() -> void:
 	
 func _on_bolerob_pressed() -> void:
 	toggle_sprite(^"access/bolero")
+	

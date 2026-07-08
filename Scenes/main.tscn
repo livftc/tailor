@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://boifu63dle5um"]
 
 [ext_resource type="Script" uid="uid://lswoar2o2j1u" path="res://scripts/main.gd" id="1_8gbba"]
+[ext_resource type="AudioStream" uid="uid://clxcyb1t0lj0m" path="res://titlescreenmusic.mp3" id="2_ee4r6"]
 [ext_resource type="Texture2D" uid="uid://cmhefs6fpk3k" path="res://icons/home.png" id="2_jjvhh"]
 [ext_resource type="FontFile" uid="uid://vbbd6pwx2g2l" path="res://Fonts/Press_Start_2P/PressStart2P-Regular.ttf" id="3_8gbba"]
 [ext_resource type="Texture2D" uid="uid://dh1d25u2aqgr7" path="res://clothes/mannequin.png" id="4_kry3j"]
@@ -177,6 +178,11 @@ shadow_size = 2
 
 [node name="main" type="Node" unique_id=1697023579]
 script = ExtResource("1_8gbba")
+
+[node name="bgmusic" type="AudioStreamPlayer2D" parent="." unique_id=1482628902]
+position = Vector2(26, 15)
+stream = ExtResource("2_ee4r6")
+autoplay = true
 
 [node name="bg" type="ColorRect" parent="." unique_id=1748818500]
 offset_right = 1276.0
