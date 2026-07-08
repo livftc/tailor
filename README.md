@@ -1,0 +1,3 @@
+Hello! This is my very first game ever. It is a super basic dress up game made with godot. All it does is offer a few options for clothing to put on a character. I got started with tons of tutorials which was super helpful (i love yt). That's why it took me so long too, because I kept getting messed up with button connections lol. I had a ton of fun with this project, and it's the first time I've interacted with hack club as well. Tailor was a great intro to hack club because I loved the prize options so it gave me motivation to actually make it. I will hopefully be making more of these projects in the future! 
+
+Bless up for pixabay for free music btw.
