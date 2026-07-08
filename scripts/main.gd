@@ -108,6 +108,9 @@ func _on_flared_pressed() -> void:
 
 func _on_shorts_pressed() -> void:
 	toggle_sprite(^"bots/black_shorts")
+	
+func _on_skirtb_pressed() -> void:
+	toggle_sprite(^"bots/skirt")
 
 
 func _on_accesories_pressed() -> void:
